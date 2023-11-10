@@ -25,7 +25,7 @@ h3 {
     height: 100px;
     background-color: darkred;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
     position: sticky; top: 0;
 }
@@ -81,6 +81,10 @@ h3 {
     background-color: lightblue;
 }
 
+#projects {
+    scroll-margin-top: 100px;
+}
+
 .project-container {
     border: 5px solid red;
     width: 40%;
@@ -112,6 +116,10 @@ h3 {
     align-items: center;
 }
 
+#skills {
+    scroll-margin-top: 100px; 
+}
+
 .skills-container {
     display: flex;
     justify-content: space-around;
@@ -135,6 +143,10 @@ h3 {
     align-items: center;
     background-color: violet;
    
+}
+
+#contact {
+    scroll-margin-top: 100px;
 }
 
 .contact-form {
@@ -176,4 +188,17 @@ textarea {
   
   .contact-form button {
     padding: 0 1rem;
+  }
+
+
+  /* Footer Section  */
+
+  .footer {
+    background-color: lightskyblue;
+    width: 100%;
+    height: 150px;
+  }
+
+  .contact-icon {
+    height: 50px;
   }

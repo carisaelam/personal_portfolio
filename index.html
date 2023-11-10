@@ -15,17 +15,18 @@
 
 <!-- Header Section -->
     <nav class="navbar">
-      <h1>Carisa Elam</h1>
+      
       <ul class="ul-container">
-        <li>About Me</li>
-        <li>Projects</li>
-        <li>Skills</li>
-        <li>Contact</li>
+        <a href="#about-me"><li>About Me</li></a>
+        <a href="#projects"><li>Projects</li></a>
+        <a href="#skills"><li>Skills</li></a>
+        <a href="#contact"><li>Contact</li></a>
       </ul>
     </nav>
    
 
     <!-- Main Section -->
+    <h1 id="about-me">Carisa Elam</h1>
     <section class="main">
         <div class="headshot">
             <img class="headshot-image" src="./resources/headshot.png" alt="Image of Carisa Elam"/>
@@ -36,14 +37,17 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
     </section>
+    
 
    
 <!-- Projects Section -->
-    <h2>Projects</h2>
+    <h2 id="projects">Projects</h2>
     <section class="projects">   
 
         <div class="project-container" id="project-one">
-            <img class="project-image" src="./resources/musical-guitar-ss.png" alt="Guitar Studio Website"/>
+            
+            <a href="https://carisaelam.github.io/guitar-lessons/" target="_blank"><img class="project-image" src="./resources/musical-guitar-ss.png" alt="Guitar Studio Website"/></a>
+
             <div class="project-text">
                 <h3>Musical Guitar Lessons</h3>
                 <p>This website was designed for a guitar studio called <em>Musical Guitar Lessons</em>. The website provides potential clients with information about pricing, instructors, and lesson objectives. 
@@ -54,7 +58,8 @@
         
 
         <div class="project-container" id="project-two">
-            <img class="project-image" src="./resources/supper-club-ss.png" alt=""/>
+            <a href="https://carisaelam.github.io/supper-club/" target="_blank"><img class="project-image" src="./resources/supper-club-ss.png" alt="Supper Club site image"/></a>
+
             <div class="project-text">
                 <h3>Saturday Supper Club</h3>
                 <p>The Saturday Supper Club website was built to advertise a local supper club. The site includes information about the club as well as testimonials from current members. Interested folks can sign up for more information using the built in contact form.  
@@ -65,10 +70,12 @@
         
 
         <div class="project-container" id="project-three">
-            <img class="project-image" src="./resources/tea-cozy-ss.png" alt=""/>
+
+            <a href="https://carisaelam.github.io/tea-cozy/" target="_blank"><img class="project-image" src="./resources/tea-cozy-ss.png" alt="Tea Cozy Site Image"/></a>
+
             <div class="project-text">
                 <h3>Tea Cozy Website</h3>
-                <p>This website was built as a landing page for a tea cafe called <em>Tea Cozy</em>. The site was built as a project for the Codecademy Full Stack Engineer course. 
+                <p>This website was built as a landing page for a tea cafe called <em>Tea Cozy</em>. The site was built as a project for the Codecademy Full Stack Engineer course. https://carisaelam.github.io/tea-cozy/ 
                 </p>
                 <p>This website was created using HTML5 and CSS.</p>
             </div>
@@ -76,7 +83,9 @@
         
 
         <div class="project-container" id="project-four">
-            <img class="project-image" src="./resources/piano-player-ss.png" alt=""/>
+            <a href="https://carisaelam.github.io/piano-keys/" target="_blank"><img class="project-image" src="./resources/piano-player-ss.png" alt="Piano Key project image"/></a>
+         
+
             <div class="project-text">
                 <h3>Piano Player</h3>
                 <p>This project was made from the perspective of a web developer hired by a music education company to create an interactive game to help their beginner-level piano students study. 
@@ -89,25 +98,31 @@
 
 
 <!-- Skills Section -->
-    <h2>Skills</h2>
+    <h2 id="skills">Skills</h2>
     <section class="skills">
 
         <div class="skills-container">
 
             <div class="skills-item">
                 <img src="./resources/html.png" alt="HTML5 Logo"/>
-                <h4>Skill 1</h4>
+                <h4>HTML</h4>
             </div>
             
             <div class="skills-item">
-                <img src="./resources/css.png" alt="HTML5 Logo"/>
-                <h4>Skill 2</h4>
+                <img src="./resources/css.png" alt="CSS Logo"/>
+                <h4>CSS</h4>
             </div>
 
             
             <div class="skills-item">
-                <img src="./resources/js.png" alt="HTML5 Logo"/>
-                <h4>Skill 3</h4>
+                <img src="./resources/js.png" alt="JavaScript Logo"/>
+                <h4>JavaScript</h4>
+            </div>
+
+            
+            <div class="skills-item">
+                <img src="./resources/git.png" alt="Git Logo"/>
+                <h4>Git</h4>
             </div>
 
         </div>
@@ -116,11 +131,11 @@
 
 
 <!-- Contact Section -->
-    <section class="form-section">
+    <section id="contact" class="form-section">
        
         <form class="contact-form" action="https://formsubmit.co/carisamayuga@gmail.com" method="POST">
 
-            <h2>Contact Me!</h2>
+            <h2>Get in Touch!</h2>
             <br></br>
 
             <label for="name">Name </label>
@@ -143,6 +158,19 @@
     </section>
 
 
+
+<!-- Footer Section -->
+    <section class="footer">
+
+        <h2>Contact</h2>
+      
+        <a href="https://github.com/carisaelam" target="_blank"><img class="contact-icon" src="./resources/github.png" alt="GitHub link image"></a>
+      
+        <a href="https://linkedin.com/in/carisa-elam-097368239" target="_blank"><img class="contact-icon" src="./resources/linkedin-logo.png" alt="LinkedIn link image"></a>
+      
+        <a href="https://twitter.com/carisa_may" target="_blank"><img class="contact-icon" src="./resources/twitter.png" alt="Twitter link image"></a>
+
+    </section>
+
 </body>
 </html>
-
