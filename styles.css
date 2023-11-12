@@ -28,7 +28,7 @@ h3 {
 
 .navbar {
     width: 100%;
-    height: 100px;
+    height: auto;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -41,6 +41,7 @@ h3 {
     justify-content: space-around;
     align-items: center;
     background-color: #081a31;
+    margin-right: 1rem;
 }
 
 .ul-container a {
@@ -51,12 +52,11 @@ h3 {
 
 .ul-container li {
     list-style-type: none;
-    border: 2px solid black;
-    border-radius: .75rem;
-    margin: .75rem;
+    color: #ececec;
+    margin: .45rem;
     padding: .5rem;
     font-size: 1.5rem;    
-    background-color: #ececec;
+    background-color: #081a31;
 }
 
 .nav-button:focus {
@@ -81,7 +81,12 @@ h3 {
 /* Main Section */
 
 #about-me {
-    margin-top: 3rem;
+    margin-top: 5rem;
+    margin-bottom: .05rem;
+    text-align: center;
+    font-size: 7rem;
+    scroll-margin-top: 100px;
+
 }
 
 .main {
@@ -90,8 +95,6 @@ h3 {
     align-items: center;
     width: 100%;
     height: auto;
-    border: 2px solid orange;
-    margin-top: 3rem;
 }
 
 .main > * {
@@ -116,16 +119,17 @@ h3 {
     flex-wrap: wrap;
     width: 100%;
     height: auto;
-    border: 2px solid yellow;
+    border-top: 2px solid #081a31;
 }
 
 #projects {
     scroll-margin-top: 100px;
     margin-top: 5rem;
+    margin-right: 5rem;
+    text-align: right;
 }
 
 .project-container {
-    border: 5px solid red;
     width: 40%;
     min-width: 400px;
     height: 250px;
@@ -133,7 +137,6 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
 }
 
 .project-container img {
@@ -153,11 +156,13 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 2px solid #081a31;
 }
 
 #skills {
     scroll-margin-top: 100px; 
     margin-top: 5rem;
+    margin-left: 1rem;
 }
 
 .skills-container {
@@ -167,7 +172,7 @@ h3 {
     text-align: center;
     height: auto;
     width: 50%;
-    border: 2px solid green;
+    margin-top: 1rem;
 }
 
 .skills-item img {
@@ -177,29 +182,42 @@ h3 {
 
 /* Contact Section */
 
+.contact-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
 .form-section {
     display: flex;
     justify-content: center;
-    align-items: center;
-    border: 2px solid blue; 
-   
+    align-items: top; 
+}
+
+.get-in-touch {
+    text-align: right;
+    margin-right: 1rem;
+    margin-top: 10rem;
 }
 
 #contact {
     scroll-margin-top: 100px;
+    border-top: 2px solid #081a31;
 }
 
 .contact-form {
     width: 500px;
     height: auto;
-    margin: 3rem 0;
     border: 2px solid black;
     text-align: center;
-    border: 1px solid green;
+    border: 2px solid #081a31;
     border-radius: 10px;
+    margin-top: 2rem;
+    margin-right: 1rem;
 }
 
-.contact-form h2 {
+.contact-form h3 {
     text-align: center;
     border-radius: 10px;
     margin-top: .5rem;
@@ -218,29 +236,42 @@ textarea {
   width: 70%;
   margin-left: .5rem;
   border: 1px solid grey;
+  border-radius: 10px;
 }
 
 
 .contact-form textarea {
     vertical-align: top;
     height: 5em;
+    border-radius: 10px;
   }
   
   .contact-form button {
     padding: 0 1rem;
   }
 
+  .contact-form #submit {
+    border-radius: 10px;
+    padding: 0rem 1.5rem;
+  }
+
 
   /* Footer Section  */
 
   .footer {
-    border: 2px solid purple;
+    margin-top: 5rem;
     width: 100%;
-    height: 150px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    padding: 1rem;
+    background-color: #ececec;
   }
 
   .contact-icon {
-    height: 50px;
+    height: 30px;
+    margin: 0rem 1rem;
   }
 
 
