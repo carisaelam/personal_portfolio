@@ -17,16 +17,25 @@
 <body>
 
 <!-- Header Section -->
-    <nav class="navbar">
-      
-      <ul class="ul-container">
-        <a href="#about-me"><li class="nav-button">About Me</li></a>
-        <a href="#projects"><li class="nav-button">Projects</li></a>
-        <a href="#skills"><li class="nav-button">Skills</li></a>
-        <a href="#contact"><li class="nav-button">Contact</li></a>
-      </ul>
+
+    <div class="off-screen-menu">
+        <ul class="off-screen-menu-container">
+            <a href="#about-me"><li class="nav-button">About Me</li></a>
+            <a href="#projects"><li class="nav-button">Projects</li></a>
+            <a href="#skills"><li class="nav-button">Skills</li></a>
+            <a href="#contact"><li class="nav-button">Contact</li></a>
+        </ul>
+    </div>    
+
+    <nav>
+        <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </nav>
-   
+
+
 
     <!-- Main Section -->
     <h1 id="about-me">Carisa Elam</h1>
@@ -182,7 +191,9 @@
 </section>
   
 
-
+<script src="script.js"></script>
 </body>
 </html>
 
+
+<!-- Add javascript -->
