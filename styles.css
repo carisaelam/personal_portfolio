@@ -545,7 +545,7 @@ textarea {
  
   @media screen and (min-width: 801px) {
     * {
-      font-size: 18px;
+        font-size: 18px;
     }
 
     .intro-text {
@@ -554,6 +554,10 @@ textarea {
 
     #about-me {
         margin-bottom: 2.5rem;
+    }
+
+    .headshot-image {
+        max-height: 350px;
     }
 
 
@@ -587,9 +591,35 @@ textarea {
   }
 
 
-  @media screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1100px) and (max-width: 1400px) {
     * {
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .headshot-image {
+        max-height: 700px;
+    }
+
+    #about-me {
+        font-size: 7rem;
+    }
+
+    .intro-text p {
+        font-size: 1.75rem;
+    }
+
+
+    .project-container {
+        width: 80%;
+    }
+
+    .project-container img {
+        max-height: 250px;
+        max-width: 275px;
+    }
+
+    .project-text p, em {
+        font-size: 1.25rem;
     }
 
     .skills {
@@ -629,9 +659,21 @@ textarea {
 }
 
 
-  @media screen and (min-width: 1800px) {
+  @media screen and (min-width: 1401px) {
     * {
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+    #about-me {
+        font-size: 7rem;
+    }
+
+    .headshot-image {
+        max-height: 900px;
+    }
+
+    .intro-text p {
+        font-size: 2rem;
     }
 
     .project-container {
@@ -639,9 +681,16 @@ textarea {
     }
 
     .project-container img {
-        max-height: 300px;
-        max-width: 275px;
+        max-height: 250px;
+        max-width: 250px;
+    }
 
+    .project-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .project-text p, em {
+        font-size: 1rem;
     }
 
     .skills {
@@ -679,3 +728,6 @@ textarea {
         height: 25px;
     }
 }
+
+
+/* Left off checking responsive design layouts. */
