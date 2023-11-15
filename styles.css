@@ -664,16 +664,57 @@ textarea {
         font-size: 16px;
     }
 
+    .ham-menu {
+        height: 60px;
+        width: 60px;
+    }
+
+    .ham-menu span {
+        height: 6px;
+    }
+
+   .off-screen-menu {
+    max-width: 300px;
+   }
+
+   .off-screen-menu li {
+    font-size: 2rem;
+   }
+
     #about-me {
         font-size: 7rem;
     }
 
     .headshot-image {
-        max-height: 900px;
+        max-height: 1000px;
+    }
+
+    .intro-text {
+        width: 50%;
     }
 
     .intro-text p {
         font-size: 2rem;
+    }
+
+    .main {
+        justify-content: center;
+        height: auto;
+    }
+
+    .main > * {
+        margin: 4rem;
+    }
+
+    .projects {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #projects {
+        text-align: right;
+        width: auto;
+        margin-right: 1rem;
     }
 
     .project-container {
@@ -730,4 +771,23 @@ textarea {
 }
 
 
-/* Left off checking responsive design layouts. */
+@media screen and (min-width: 1800px) {
+    * {
+        font-size: 18px;
+    }
+
+    .project-text p, em {
+        font-size: 1.5rem;
+    }
+
+    .project-text h3 {
+        font-size: 2rem;
+    }
+
+    .project-container {
+        width: 45%;
+    }
+}
+
+
+/*  */
