@@ -77,7 +77,11 @@ nav {
 }
 
 .ham-menu span:nth-child(1) {
-    top: 25%;
+    top: 25%;    
+}
+
+.ham-menu span:nth-child(2) {
+    top: 50%;
 }
 
 .ham-menu span:nth-child(3) {
@@ -335,18 +339,343 @@ textarea {
   }
 
 
-  /* light-gray { 
-	background: #ececec; 
-}
-	
- greenish { 
-	background: #9fd3c7; 
+  /* Media Queries */
+
+  @media screen and (max-width: 420px) {
+    * {
+      font-size: 12px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .off-screen-menu {
+        max-width: 50%;
+    }
+
+    .ham-menu {
+        height: 30px;
+        width: 30px;
+    }
+
+    .ham-menu span {
+        height: 3px;
+    }
+
+    #about-me {
+        font-size: 4rem;
+        margin-top: 1rem;
+    }
+
+    .headshot-image {
+        max-height: 200px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .intro-text {
+        margin: 1rem;
+        margin-top: 0;
+    }
+
+    .intro-text p {
+        font-size: 1rem;
+    }
+
+
+    #projects {
+        margin-left: 1rem;
+        text-align: left;
+    }
+
+    .project-container {
+        width: 100%;
+        max-width: 400px;
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+
+    .project-container img {
+        max-width: 200px;
+        margin: .5rem;
+    }
+
+    .project-text {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .project-image {
+        justify-content: left;
+    }
+
+    .skills {
+        justify-content: left;
+    }
+
+    .skills-container {
+        margin: 2rem;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .skills-item {
+        margin-left: .5rem;
+    }
+
+
+    .skills-item img {
+        max-height: 40px;
+    }
+
+
+    .contact-form {
+        max-width: 300px;
+    }
+
+    .contact-form label {
+        max-width: 300px;
+        margin-left: .6rem;
+    }
+
+    .contact-form input, textarea {
+        max-width: 300px;
+    }
+
+    .contact-icon {
+        height: 25px;
+    }
+    
+  }
+
+
+
+
+
+ 
+  @media screen and (min-width: 421px) {
+    * {
+      font-size: 12px;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .ham-menu {
+        height: 40px;
+        width: 40px;
+    }
+
+    .ham-menu span {
+        height: 3.5px;
+    }
+
+    #about-me {
+        font-size: 5rem;
+        margin-top: 1.25rem;
+    }
+
+    .headshot-image {
+        max-height: 250px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .intro-text {
+        margin: 1rem; 
+    }
+
+    .intro-text p {
+        font-size: 1.25rem;
+    }
+
+    #projects {
+        margin-left: 1rem;
+        text-align: left;
+    }
+
+    .project-container {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 4.25 rem;
+    }
+
+    .project-container img {
+        max-width: 250px;
+    }
+
+    .skills {
+        justify-content: left;
+    }
+
+    .skills-container {
+        margin: 2rem; 
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .skills-item {
+        margin: 1rem;
+    }
+  }
+ 
+ 
+  @media screen and (min-width: 801px) {
+    * {
+      font-size: 18px;
+    }
+
+    .intro-text {
+        margin-top: 4rem;
+    }
+
+    #about-me {
+        margin-bottom: 2.5rem;
+    }
+
+
+    #projects {
+        margin-left: 1rem;
+        text-align: left;
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .project-container {
+        max-width: 100%;
+        margin-bottom: 4.25 rem;
+    }
+
+    .project-container img {
+        max-width: 300px;
+    }
+
+   #skills {
+    margin-top: 4rem;
+   }
+
+   .get-in-touch {
+    margin-top: 4rem;
+   }
+
+   .contact-icon {
+    height: 40px;
+   }
+  }
+
+
+  @media screen and (min-width: 1200px) {
+    * {
+        font-size: 20px;
+    }
+
+    .skills {
+        justify-content: left;
+    }
+
+    .skills-container {
+        margin: 2rem; 
+        width: 60%;
+        justify-content: space-around;
+    }
+
+    .skills-item {
+        margin: 1rem;
+    }
+
+    .skills-item img {
+        max-height: 100px;
+    }
+
+    .contact-form {
+        max-width: 500px;
+    }
+
+    .contact-form label {
+        max-width: 500px;
+        margin-left: .6rem;
+    }
+
+    .contact-form input, textarea {
+        max-width: 500px;
+    }
+
+    .contact-icon {
+        height: 25px;
+    }
 }
 
-grey blue
-	background: #385170; 
-}
 
-darker blue
-	background: #142d4c; 
-} */
+  @media screen and (min-width: 1800px) {
+    * {
+        font-size: 20px;
+    }
+
+    .project-container {
+        width: 40%;
+    }
+
+    .project-container img {
+        max-height: 300px;
+        max-width: 275px;
+
+    }
+
+    .skills {
+        justify-content: left;
+    }
+
+    .skills-container {
+        margin: 2rem; 
+        width: 60%;
+        justify-content: space-around;
+    }
+
+    .skills-item {
+        margin: 1rem;
+    }
+
+    .skills-item img {
+        max-height: 100px;
+    }
+
+    .contact-form {
+        max-width: 500px;
+    }
+
+    .contact-form label {
+        max-width: 500px;
+        margin-left: .6rem;
+    }
+
+    .contact-form input, textarea {
+        max-width: 500px;
+    }
+
+    .contact-icon {
+        height: 25px;
+    }
+}
